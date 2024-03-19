@@ -133,7 +133,7 @@ class Player {
 
 // Define a function to set up event listeners
 function setupEventListeners(player) {
-  const speed = 1000;
+  const speed = 100;
 
   onKeyDown("left", () => {
     player.move(-speed, 0, "walk-side");
